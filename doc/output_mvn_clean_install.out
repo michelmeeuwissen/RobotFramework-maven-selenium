@@ -1,0 +1,82 @@
+
+C:\local\workspace\RobotFramework-maven-selenium>mvn clean install
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building robot.maven 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ robot.maven ---
+[INFO] Deleting C:\local\workspace\RobotFramework-maven-selenium\target
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ robot.maven ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ robot.maven ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ robot.maven ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ robot.maven ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.7.1:test (default-test) @ robot.maven ---
+[INFO] Surefire report directory: C:\local\workspace\RobotFramework-maven-selenium\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ robot.maven ---
+[INFO] Building jar: C:\local\workspace\RobotFramework-maven-selenium\target\robot.maven-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- robotframework-maven-plugin:1.4.4:run (default) @ robot.maven ---
+==============================================================================
+Acceptance
+==============================================================================
+Acceptance.ROBOT TEST 1 :: Just a Simple test number 1
+==============================================================================
+Starting ChromeDriver 2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29) on port 40395
+Only local connections are allowed.
+
+Show the tags
+TAGS:
+[u'ROBOT1']
+Show the tags                                                         | PASS |
+------------------------------------------------------------------------------
+Check on content                                                      | PASS |
+------------------------------------------------------------------------------
+Acceptance.ROBOT TEST 1 :: Just a Simple test number 1                | PASS |
+2 critical tests, 2 passed, 0 failed
+2 tests total, 2 passed, 0 failed
+==============================================================================
+Acceptance                                                            | PASS |
+2 critical tests, 2 passed, 0 failed
+2 tests total, 2 passed, 0 failed
+==============================================================================
+Output:  C:\local\workspace\RobotFramework-maven-selenium\target\robotframework-reports\output.xml
+XUnit:   C:\local\workspace\RobotFramework-maven-selenium\target\robotframework-reports\TEST-acceptance.xml
+Log:     C:\local\workspace\RobotFramework-maven-selenium\target\robotframework-reports\log.html
+Report:  C:\local\workspace\RobotFramework-maven-selenium\target\robotframework-reports\report.html
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ robot.maven ---
+[INFO] Installing C:\local\workspace\RobotFramework-maven-selenium\target\robot.maven-1.0-SNAPSHOT.jar to C:\local\.m2\repository\com\github
+\robot.maven\1.0-SNAPSHOT\robot.maven-1.0-SNAPSHOT.jar
+[INFO] Installing C:\local\workspace\RobotFramework-maven-selenium\pom.xml to C:\local\.m2\repository\com\github\robot.maven\1.0-SNAPSHOT\ro
+bot.maven-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 14.939 s
+[INFO] Finished at: 2015-08-13T12:35:38+02:00
+[INFO] Final Memory: 44M/488M
+[INFO] ------------------------------------------------------------------------
